@@ -1,4 +1,4 @@
-# AI-Powered Data Analysis of Olympic History 🥇
+# AI-Powered Data Analysis of Olympic History
 
 This project demonstrates how to use a large language model (Google's Gemini API) to perform automated data analysis and visualization on the "120 years of Olympic history" dataset. The Python script takes natural language questions, asks the AI to generate corresponding `pandas` and `matplotlib`/`seaborn` code, and then executes that code locally to produce answers and charts.
 
@@ -12,7 +12,7 @@ This project demonstrates how to use a large language model (Google's Gemini API
 
 ---
 
-## ⚙How It Works
+## How It Works
 
 The project's core is a "generate and execute" pattern. Instead of sending the entire (potentially large) dataset to the AI, we only send the *structure* of the data and ask the AI to write a script. We then run that script on our local data.
 
